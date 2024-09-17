@@ -18,7 +18,7 @@ void palin_check(int num)
         reversed = reversed * 10 + remainder;
         num = num / 10;
     }
-    if (original = reversed)
+    if (original == reversed)
     {
         printf("The %d number is palindrome %d\n", original, reversed);
     }
